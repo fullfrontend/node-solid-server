@@ -2,3 +2,39 @@
 .panel-already-registered{
     text-align: center;
 }
+
+.control-progress{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+}
+
+.form-group .progress{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 7px;
+    margin-bottom: 0;
+}
+
+.form-group .progress-bar{
+    width: 0;
+}
+
+.form-group .level-0{
+    width: 5%
+}
+
+.form-group .level-1{
+    width: 25%;
+}
+
+.form-group .level-2{
+    width: 50%;
+}
+
+.form-group .level-3{
+    width: 75%;
+}
+.form-group .level-4{
+    width: 100%;
+}
