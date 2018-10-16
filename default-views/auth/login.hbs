@@ -16,20 +16,20 @@
   {{> shared/error}}
 
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-sm-6">
       {{#if enablePassword}}
         {{> auth/login-username-password}}
       {{/if}}
-      <div class="visible-md visible-lg">
+      <div class="visible-sm visible-md visible-lg">
         {{> shared/create-account }}
       </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-sm-6">
       {{#if enableTls}}
         {{> auth/login-tls}}
       {{/if}}
-      <div class="visible-xs visible-sm">
+      <div class="visible-xs">
         {{> shared/create-account }}
       </div>
     </div>
